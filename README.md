@@ -5,31 +5,13 @@
   
 Эйчары компании проводили исследование `Опрос сотрудников об удаленной работе`, чтобы выявить отношение сотрудников к удаленной работе. Вопросы в первых двух блоках были сформулированы как утверждения, с которыми нужно согласиться в той или иной степени по шкале от 1 до 10. Заключительный третий блок включал вопросы открытого типа, на которые предлагалось оставить комментарий. Я предобработала текст и  проанализировала комментарии и дополнила данные анализ первых двух блоков, предварительно предобработав текст. 
 
-![alt](https://yadi.sk/i/N_TU8D9DKGWfig) 
+![Как Вы относитесь к перспективе удаленной работы в будущем, после ситуации с COVID-19?](https://https://https://disk.yandex.ru/client/disk/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8B%D1%85%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%20%D0%B2%20%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B5%20%D0%BE%D0%B1%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5?idApp=client&dialog=slider&idDialog=%2Fdisk%2F%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%2F%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D1%8B%D1%85%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%20%D0%B2%20%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B5%20%D0%BE%D0%B1%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%2FafterCloud.jpg) 
 
 частоты используемых в свободных ответах слов визуализировала с помощью scatterplot и 
 
 
 В исследовании былы Результатом анализа станет публичное исследование с комментариями первых лиц компании.
   
-### Используемые библиотеки: `pandas`, `numpy`, `plotly.express`, `texthero`, `preprocessing`
+#### Используемые библиотеки: `pandas`, `numpy`, `plotly.express`, `texthero`, `preprocessing`
 
-```import pandas as pd
-import numpy as np
-from scipy import stats
-
-import plotly.express as px
-from plotly import graph_objects as go
-import matplotlib.pyplot as plt
-from IPython.display import display
-%matplotlib inline 
-
-import texthero as hero
-from texthero import preprocessing
-from texthero import stopwords
-default_stopwords = stopwords.DEFAULT
-
-import warnings
-warnings.simplefilter('ignore')
-```
 #
